@@ -41,11 +41,11 @@ html{color:#000;background:#2F3135}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
 
 @font-face {
     font-family: 'appicns';
-    src: url('../_font/appicns-webfont.eot');
-    src: url('../_font/appicns-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../_font/appicns-webfont.woff') format('woff'),
-         url('../_font/appicns-webfont.ttf') format('truetype'),
-         url('../_font/appicns-webfont.svg#YourIconsRegular') format('svg');
+    src: url('../font/appicns-webfont.eot');
+    src: url('../font/appicns-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/appicns-webfont.woff') format('woff'),
+         url('../font/appicns-webfont.ttf') format('truetype'),
+         url('../font/appicns-webfont.svg#YourIconsRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
