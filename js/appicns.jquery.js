@@ -9,6 +9,8 @@ $(function() {
     $(".dock").addClass('show');
   });
 
+  show_download_view();
+
  selectedEl = $("#icons_content");
  setBodyHeight();
  $(window).scroll(function() {
