@@ -58,7 +58,7 @@ html {
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   font-family:"futura-pt", "Futura Std", "Avenir", 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size-adjust:0.48; font-weight:normal; font-style:normal;
 }
@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6 {
  overflow: hidden;
  background: url(header.png) center no-repeat;
  position: fixed;
- width: 100%;
+ width: 100vw;
  z-index: 100;
  text-align: center;
  color: #eee;
@@ -288,7 +288,6 @@ h1,h2,h3,h4,h5,h6 {
 .download-section {
   position: relative;
   width: 100vw;
-  min-height: 500px;
   padding-top: 160px;
   padding-bottom: 160px;
 }
