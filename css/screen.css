@@ -317,9 +317,9 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 144px;
   font-weight: 200;
   opacity: 0;
-  -webkit-transition: all 800ms 200ms;
-  -moz-transition: all 800ms 200ms;
-  -ms-transition: all 800ms 200ms;
+  -webkit-transition: all 800ms 0ms;
+  -moz-transition: all 800ms 0ms;
+  -ms-transition: all 800ms 0ms;
   transition: all 800ms 800ms;
   transform: translate(0, 20px);
 }
