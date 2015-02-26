@@ -32,7 +32,7 @@ $(function() {
       if(selectedEl.attr("id") == "download") {
         icon_index = $("#full_download").index();
       }
-      if(selectedEl.attr("id") == "single_content") {
+      if(selectedEl.attr("id") != "icons_content") {
         scrollto_label(icon_index);
       }
       
