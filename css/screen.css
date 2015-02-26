@@ -282,7 +282,7 @@ h1,h2,h3,h4,h5,h6 {
   transform: scale(1.05);
 }
 
-#pages {
+div#pages {
   left: -200vw;
   position: relative;
   transition: left .5s;
