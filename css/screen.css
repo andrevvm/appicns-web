@@ -60,7 +60,7 @@ body, html {
   padding: 0;
   width: 100vw;
   text-align: center;
-  font-family:"futura-pt", "Futura Std", "Avenir", 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size-adjust:0.48; font-weight:normal; font-style:normal;
+  font-family: "GT Walsheim", "GT Walsheim Pro", "GT Walsheim Pro Trial", "futura-pt", "Futura Std", "Avenir", 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size-adjust:0.48; font-weight:normal; font-style:normal;
 }
 html {
  -webkit-transition: all
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
  z-index: 100;
  text-align: center;
  color: #eee;
- font-size: 26px;
+ font-size: 24px;
   background: #1A1C1D;
   transition: padding .5s, font-size .5s, line-height .5s;
   -moz-transition: padding .5s, font-size .5s, line-height .5s;
@@ -315,7 +315,7 @@ h1,h2,h3,h4,h5,h6 {
   position: relative;
   color: #ddd;
   font-size: 144px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .download-button {
