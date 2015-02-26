@@ -269,11 +269,17 @@ h1,h2,h3,h4,h5,h6 {
   -webkit-transition: all .2s, opacity 1ms;
   -o-transition: all .2s, opacity 1ms;
   -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 
 .icons img.icon:hover {
   opacity: 1;
   -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #pages {
@@ -305,17 +311,32 @@ h1,h2,h3,h4,h5,h6 {
   top: 375px;
 }
 
-.download-holder h2 {
-  position: relative;
-  top: -130px;
-  color: #ddd;
-}
-
 .download-holder h1 {
   position: relative;
   color: #ddd;
   font-size: 144px;
   font-weight: 200;
+  opacity: 0;
+  -webkit-transition: all 500ms 800ms;
+  -moz-transition: all 500ms 800ms;
+  -ms-transition: all 500ms 800ms;
+  transition: all 500ms 800ms;
+  transform: translate(0, 20px);
+}
+
+.download-holder #mc_embed_signup {
+  opacity: 0;
+  -webkit-transition: all 500ms 1100ms;
+  -moz-transition: all 500ms 1100ms;
+  -ms-transition: all 500ms 1100ms;
+  transition: all 500ms 1100ms;
+  transform: translate(0, 20px);
+}
+
+.download-holder.show #mc_embed_signup,
+.download-holder.show h1 {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .download-button {
