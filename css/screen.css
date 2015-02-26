@@ -93,6 +93,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #header h2 {
   padding-right: 70px;
+  padding-top: 3px;
   cursor: pointer;
   position: relative;
   z-index: 100;
@@ -124,6 +125,7 @@ h1,h2,h3,h4,h5,h6 {
   -moz-transition: margin 0s;
   -webkit-transition: margin 0s;
   -o-transition: margin 0s;
+  top: 3px;
 }
 
 #icon_labels.anim {
