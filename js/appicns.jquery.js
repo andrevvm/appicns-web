@@ -5,11 +5,12 @@ var selectedEl,
 
 $(function() {
 
-  $("form").submit(function(){
-    $(".dock").addClass('show');
-  });
-
+  
   $(".download-holder").addClass('show');
+  setTimeout(function() {
+    $(".dock").addClass('show');
+  }, 10);
+
 
  selectedEl = $("#icons_content");
  setBodyHeight();
