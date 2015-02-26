@@ -27,7 +27,9 @@ $(function() {
       if(selectedEl.attr("id") == "download") {
         icon_index = $("#full_download").index();
       }
-      scrollto_label(icon_index);
+      if(selectedEl.attr("id") == "single_content") {
+        scrollto_label(icon_index);
+      }
       
     }, 500);
     set_page_margin(selectedEl);
