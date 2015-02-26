@@ -85,8 +85,11 @@ $(function() {
  });
 
  show_download_view();
+ $("#icon_labels").removeClass("anim");
  scrollto_label($("#label_grid_download").index());
-
+ setTimeout(function() {
+  $("#icon_labels").addClass("anim");
+ },100);
 });
 
 function show_grid_view() {
