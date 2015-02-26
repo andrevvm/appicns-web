@@ -216,7 +216,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .page {
- width: 33.3333%;
+ width: 100vw;
  position: relative;
  float: left;
 }
