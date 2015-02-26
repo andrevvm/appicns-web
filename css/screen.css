@@ -248,7 +248,7 @@ h1,h2,h3,h4,h5,h6 {
   padding: 40px 0 160px;
 }
 
-.icons div.grid_4 {
+.icons div.grid_3 {
   text-align: center;
   margin-bottom: 60px;
 }
@@ -256,20 +256,23 @@ h1,h2,h3,h4,h5,h6 {
 .icons img.icon {
   cursor: pointer;
   opacity: .9;
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   margin: 40px 0;
-  transition: width .5s, height .5s, margin .5s;
-  -moz-transition: width .5s, height .5s, margin .5s;
-  -webkit-transition: width .5s, height .5s, margin .5s;
-  -o-transition: width .5s, height .5s, margin .5s;
+  transition: all .2s, opacity 1ms;
+  -moz-transition: all .2s, opacity 1ms;
+  -webkit-transition: all .2s, opacity 1ms;
+  -o-transition: all .2s, opacity 1ms;
+  -webkit-transform: scale(1);
 }
 
 .icons img.icon:hover {
   opacity: 1;
+  -webkit-transform: scale(1.05);
 }
 
 #pages {
+  left: 0;
   position: relative;
   transition: left .5s;
   -moz-transition: left .5s;
@@ -289,6 +292,26 @@ h1,h2,h3,h4,h5,h6 {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+
+.download-holder img {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  margin-left: -32px;
+}
+
+.download-holder h2 {
+  position: relative;
+  top: -100px;
+  color: #ddd;
+}
+
+.download-holder h1 {
+  position: relative;
+  top: 10px;
+  color: #ddd;
+  font-size: 32px;
 }
 
 .download-button {
@@ -430,4 +453,28 @@ h1 {
 p {
   font-size: 20px;
   line-height:  1.5em;
+}
+
+.spin {
+  -moz-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  } 
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  transform: rotate(360deg);
 }
