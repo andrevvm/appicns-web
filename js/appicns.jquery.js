@@ -4,6 +4,11 @@ var selectedEl,
     timer;
 
 $(function() {
+
+  $("form").submit(function(){
+    $(".dock").addClass('show');
+  });
+
  selectedEl = $("#icons_content");
  setBodyHeight();
  $(window).scroll(function() {

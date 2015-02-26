@@ -290,6 +290,7 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
   min-height: 500px;
   padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .download-holder {
@@ -532,6 +533,23 @@ input {
    color: #ccc;  
 }
 
+.dock {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  max-width: 900px;
+  min-width: 300px;
+  transform: translate(-50%, 100%) scale(0.8);
+  transition: all .4s cubic-bezier(0,.86,.71,.99);
+  -moz-transition: all .4s cubic-bezier(0,.86,.71,.99);
+  -webkit-transition: all .4s cubic-bezier(0,.86,.71,.99);
+  -o-transition: all .4s cubic-bezier(0,.86,.71,.99);
+}
+
+.dock.show {
+  transform: translate(-50%, 0) scale(1);
+}
+
 input:focus {
   border-bottom-color: #33EDBD;
 }
@@ -545,6 +563,10 @@ input[type="submit"] {
   margin: 0;
   width: 300px;
   outline: none;
+}
+
+input[disabled] {
+  opacity: 0.5;
 }
 
 #mc_embed_signup div.mce_inline_error {
