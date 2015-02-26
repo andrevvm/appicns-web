@@ -9,8 +9,6 @@ $(function() {
     $(".dock").addClass('show');
   });
 
-  show_download_view();
-
  selectedEl = $("#icons_content");
  setBodyHeight();
  $(window).scroll(function() {
@@ -83,6 +81,8 @@ $(function() {
  $("#download-link").click(function() {
   _gaq.push(['_trackEvent', 'Downloads', 'ZIP', 'appicns.zip']);
  });
+
+ show_download_view();
 
 });
 
