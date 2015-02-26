@@ -96,6 +96,7 @@ h1,h2,h3,h4,h5,h6 {
   cursor: pointer;
   position: relative;
   z-index: 100;
+  line-height: 1.5em
 }
 
 #header h2:hover {
@@ -120,6 +121,7 @@ h1,h2,h3,h4,h5,h6 {
   right: 1px;
   text-align: right;
   font-weight: 500;
+  line-height: 1.5em;
   transition: margin 0s;
   -moz-transition: margin 0s;
   -webkit-transition: margin 0s;
