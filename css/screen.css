@@ -238,6 +238,8 @@ h1,h2,h3,h4,h5,h6 {
 
 #download {
  text-align: center;
+ background: #F1F1F1;
+ min-height: 100vh;
 }
 
 #single_content #full_download {
@@ -282,36 +284,35 @@ h1,h2,h3,h4,h5,h6 {
 
 .download-section {
   position: relative;
-  display: table;
   width: 100%;
   min-height: 500px;
   padding-top: 160px;
 }
 
 .download-holder {
-  display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
 .download-holder img {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   position: absolute;
-  margin-left: -32px;
+  margin-left: -16px;
+  top: 365px;
 }
 
 .download-holder h2 {
   position: relative;
-  top: -100px;
+  top: -130px;
   color: #ddd;
 }
 
 .download-holder h1 {
   position: relative;
-  top: 10px;
   color: #ddd;
-  font-size: 32px;
+  font-size: 144px;
+  font-weight: 100;
 }
 
 .download-button {
@@ -431,7 +432,8 @@ a:active .download-arrow, a.active .download-arrow {
   padding: 0 0 140px;
 }
 
-.section a {
+.section a,
+form a {
   color: #AAE8D3;
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -477,4 +479,96 @@ p {
 
 @keyframes spin {
   transform: rotate(360deg);
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+form a {
+  display: inline-block;
+  margin: 30px;
+  color: #000;
+}
+
+form a:hover {
+  color: #33EDBD;
+}
+
+input {
+  width: 280px;
+  display: block;
+  margin: 10px 0;
+  padding: 10px 10px;
+  border: 0;
+  background: #FFF;
+  text-align: center;
+  color: black;
+  outline: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  color: #333;
+}
+
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;  
+}
+
+:-ms-input-placeholder {  
+   color: #ccc;  
+}
+
+input:focus {
+  border-bottom-color: #33EDBD;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #CDCDCD;
+  color: #4F4F4F;
+  margin: 0;
+  width: 300px;
+  outline: none;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  background: none !important;
+  color: #FF1111 !important;
+  font-weight: 100 !important;
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border-color: #FF1111 !important;
+  border-top-color: transparent !important;
+}
+
+#mc_embed_signup #mce-success-response {
+  display: block;
+  position: absolute;
+  width: 300px;
+  z-index: 1000;
+  top: -10px;
+  visibility: visible;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 10px 0 30px;
+  background: #F1F1F1;
+  color: #555;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #33EDBD;
 }
