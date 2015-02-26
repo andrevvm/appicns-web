@@ -341,6 +341,9 @@ div#pages {
 
 .download-holder.show #mc_embed_signup,
 .download-holder.show h1 {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
   transform: translate(0, 0);
   opacity: 1;
 }
