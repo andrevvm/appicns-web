@@ -9,7 +9,7 @@ email:     jrucifer@gmail.com
 
 /* Reset Styles
 -----------------------------------------------------------------------------*/
-html{color:#000;background:#2F3135}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}legend{color:#000}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}input,button,textarea,select{font-size:100%}sup,sub{vertical-align:baseline}
+html{color:#000;background:#F0F0F0}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}legend{color:#000}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}input,button,textarea,select{font-size:100%}sup,sub{vertical-align:baseline}
 
 
 
@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5,h6 {
  text-align: center;
  color: #eee;
  font-size: 24px;
-  background: #1A1C1D;
+  background: #E0E0E0;
   transition: padding .5s, font-size .5s, line-height .5s;
   -moz-transition: padding .5s, font-size .5s, line-height .5s;
   -webkit-transition: padding .5s, font-size .5s, line-height .5s;
@@ -109,17 +109,18 @@ h1,h2,h3,h4,h5,h6 {
   position: relative;
   z-index: 100;
   line-height: 1.7em;
+  color: #202020;
 }
 
 #header h2:hover {
-  color: #C2FFE7;
+  color: #0A97FA;
 }
 
 #header h3 {
   text-align: right;
   float: right;
   position: relative;
-  color: #f6f6f6;
+  color: #202020;
   margin-right: 1px;
   transition: color .5s;
   -moz-transition: color .5s;
@@ -135,6 +136,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align: right;
   font-weight: 500;
   line-height: 1.7em;
+  color: #202020;
   transition: margin 0s;
   -moz-transition: margin 0s;
   -webkit-transition: margin 0s;
@@ -175,7 +177,7 @@ h1,h2,h3,h4,h5,h6 {
 #nav a {
   display: inline-block;
   overflow: hidden;
-  color: #44464A;
+  color: #888;
   margin-right: 20px;
   position: relative;
   text-decoration: none;
@@ -186,16 +188,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #nav a:hover {
-  color: #C2FFE7;
+  color: #0A97FA;
 }
 
 #nav a:active {
-  color: #FFF;
+  color: #000;
 }
 
 #nav a.selected {
   opacity: 1;
-  color: #FFF;
+  color: #000;
 }
 
 #nav a:before {
@@ -253,7 +255,6 @@ h1,h2,h3,h4,h5,h6 {
 
 #download {
  text-align: center;
- background: #F1F1F1;
  min-height: 100vh;
 }
 
@@ -640,5 +641,6 @@ input[disabled] {
 }
 input[type="submit"]:hover {
   cursor: pointer;
-  background: #33EDBD;
+  background: #0A97FA;
+  color: #f0f0f0;
 }
