@@ -540,7 +540,7 @@ form a {
 }
 
 form a:hover {
-  color: #33EDBD;
+  color: #0A97FA;
 }
 
 input {
@@ -596,15 +596,15 @@ input {
 }
 
 input:focus {
-  border-bottom-color: #33EDBD;
+  border-bottom-color: #0A97FA;
 }
 
 input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #CDCDCD;
-  color: #4F4F4F;
+  background: #1A1C1D;
+  color: #f0f0f0;
   margin: 0;
   width: 300px;
   outline: none;
@@ -640,5 +640,6 @@ input[disabled] {
 }
 input[type="submit"]:hover {
   cursor: pointer;
-  background: #33EDBD;
+  background: #0A97FA;
+  color: #f0f0f0;
 }
