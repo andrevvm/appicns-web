@@ -315,14 +315,6 @@ div#pages {
   text-align: center;
 }
 
-.download-holder img {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  margin-left: -16px;
-  top: 375px;
-}
-
 .download-holder h1 {
   position: relative;
   color: #ddd;
