@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #header {
- padding: 10px 0px;
+ padding: 15px 0px;
  overflow: hidden;
  position: fixed;
  width: 100vw;
@@ -170,6 +170,7 @@ h1,h2,h3,h4,h5,h6 {
   -moz-transition: width .5s, height .5s, margin .5s;
   -webkit-transition: width .5s, height .5s, margin .5s;
   -o-transition: width .5s, height .5s, margin .5s;
+  line-height: 1em;
 }
 
 #nav a {
@@ -179,6 +180,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-right: 20px;
   position: relative;
   text-decoration: none;
+  line-height: 1.2em;
   transition: color .2s;
   -moz-transition: color .2s;
   -webkit-transition: color .2s;
