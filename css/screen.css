@@ -89,12 +89,11 @@ h1,h2,h3,h4,h5,h6 {
 #header {
  padding: 10px 0px;
  overflow: hidden;
- background: url(header.png) center no-repeat;
  position: fixed;
  width: 100vw;
  z-index: 100;
  text-align: center;
- font-size: 24px;
+ font-size: 20px;
   background: #202020;
   transition: padding .5s, font-size .5s, line-height .5s;
   -moz-transition: padding .5s, font-size .5s, line-height .5s;
@@ -176,7 +175,7 @@ h1,h2,h3,h4,h5,h6 {
 #nav a {
   display: inline-block;
   overflow: hidden;
-  color: #ccc;
+  color: #666;
   margin-right: 20px;
   position: relative;
   text-decoration: none;
@@ -191,7 +190,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #nav a:active {
-  color: #000;
+  color: #202020;
 }
 
 #nav a.selected {
