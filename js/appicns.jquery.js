@@ -159,7 +159,7 @@ function icon_labels() {
   $(".icons img.icon").each(function() {
     $("#icon_labels ul").append("<li id='label_"+$(this).attr("id")+"'>"+$(this).attr("title")+"</li>");
   });
-  $("#icon_labels ul").append("<li id='label_grid_download'>Coming soon</li>");
+  $("#icon_labels ul").append("<li id='label_grid_download'>Download</li>");
 }
 
 function goto_label(icon) {
