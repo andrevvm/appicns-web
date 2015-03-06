@@ -149,7 +149,7 @@ function set_page_margin(el) {
 
 function icon_text() {
   $(".icons img.icon, #grid_download").mouseenter(function(){
-    $("#header h3").stop().text($(this).attr("title")).fadeTo(100,0.5,"linear");
+    $("#header h3").stop().text($(this).attr("title")+".").fadeTo(100,0.5,"linear");
   }).mouseleave(function(){
     $("#header h3").stop().fadeTo(400,0,"linear",function(){$(this).text("");});
   });
@@ -157,9 +157,9 @@ function icon_text() {
 
 function icon_labels() {
   $(".icons img.icon").each(function() {
-    $("#icon_labels ul").append("<li id='label_"+$(this).attr("id")+"'>"+$(this).attr("title")+"</li>");
+    $("#icon_labels ul").append("<li id='label_"+$(this).attr("id")+"'>"+$(this).attr("title")+".</li>");
   });
-  $("#icon_labels ul").append("<li id='label_grid_download'>Download</li>");
+  $("#icon_labels ul").append("<li id='label_grid_download'>Download.</li>");
 }
 
 function goto_label(icon) {

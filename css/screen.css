@@ -307,21 +307,50 @@ div#pages {
 .download-section {
   position: relative;
   width: 100vw;
-  padding-top: 160px;
-  padding-bottom: 260px;
+  height: 100vh;
+  display: box;
+  display: flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .download-holder {
-  vertical-align: middle;
-  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.download-holder p {
+  font-size: 16px;
+  margin: 1.2em 0;
+}
+
+.download-holder p.money {
+  color: #202020;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0em;
+}
+
+.download-holder p.money em {
+  font-size: 18px;
+  position: relative;
+  top:-10px;
+  padding-right: 2px;
+}
+
+.download-holder p.light {
+  color: #ADADAD;
 }
 
 .download-holder h1 {
   position: relative;
-  color: #ddd;
-  font-size: 144px;
-  font-weight: 200;
+  color: #202020;
+  font-size: 32px;
+  font-weight: 400;
   opacity: 0;
+  margin-bottom: 30px;
   -webkit-transition: all 800ms 0ms;
   -moz-transition: all 800ms 0ms;
   -ms-transition: all 800ms 0ms;
@@ -354,10 +383,12 @@ div#pages {
 }
 
 .download-button {
-  display: block;
+  display: inline-block;
   clear: both;
-  background-color: #232528;
+  background-color: #ffffff;
   border-radius: 120px;
+  width: 120px;
+  height: 120px;
   -moz-border-radius: 120px;
   -webkit-border-radius: 120px;
   -o-border-radius: 120px;
@@ -369,25 +400,34 @@ div#pages {
   text-align: center;
   position: relative;
   line-height: 0;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
-.download-button .download-arrow {
+.download-button img {
+  width: 45%;
+  height: auto;
   position: relative;
-  width: 42%;
-  height: 42%;
-  margin: 19% 0 5%;
-  transition: width .5s, height .5s, margin .2s;
-  -moz-transition: width .5s, height .5s, margin .2s;
-  -webkit-transition: width .5s, height .5s, margin .2s;
-  -o-transition: width .5s, height .5s, margin .2s;
+  top: 20px;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
 }
 
-.download-bar {
-  display: inline-block;
-  background-color: #2F3135;
+.download-button:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
   width: 40%;
   height: 8%;
+  background: #202020;
+  position: relative;
+  top: 22%;
+}
+
+.download-button:hover img {
+  top: 28px;
 }
 
 #grid_download {
