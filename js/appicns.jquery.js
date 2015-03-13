@@ -209,11 +209,14 @@ function loadIcons() {
 
 function page_load() {
   var images = $('img');
+  var count = 0;
   $('.icon').each(function(){
+    count++;
     var el = $(this)
       , image = el.css('background-image').match(/url\((['"])?(.*?)\1\)/);
-    if(image)
+    if(image && count < 11) {
       images = images.add($('<img>').attr('src', image.pop()));
+    }
   });
   images.imagesLoaded(function(){
     $('body').removeClass('Loading');
