@@ -119,6 +119,8 @@ function loadIcons() {
   $.getJSON( "icons.json", function( data ) {
     var grid = [];
     var list = [];
+    var dock = [];
+    var count = 0;
     $.each( data, function( ) {
       $.each( data.icons, function( id, icon ) {
         grid.push( '<div class="grid_3 resize_960_3 resize_640_2 resize_320_2 icon_holder"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" id="'+icon.id+'" class="icon"></span></div>' );
@@ -126,9 +128,16 @@ function loadIcons() {
       $.each( data.icons, function( id, icon ) {
         list.push( '<div id="full_'+icon.id+'" class="full_icon"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" class="icns"></span><br/></div>' );
       });
+      count++;
+      if(count < 11) {
+        $.each( data.icons, function( id, icon ) {
+          dock.push( '<div class="dock_icon" style="background-image:url(icons/appicns_'+icon.id+'.png)"></div>' );
+        });
+      }
     });
     $("#grid_download").before(grid);
     $("#full_download").before(list);
+    $(".dock").append(dock);
   })
   .done(function(){
 

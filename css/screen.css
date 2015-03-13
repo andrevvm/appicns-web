@@ -606,8 +606,14 @@ input {
   position: absolute;
   bottom: 0;
   width: 80%;
-  max-width: 900px;
+  height: 15vh;
+  background: #E0E0E0;
+  max-width: 1000px;
   min-width: 300px;
+  min-height: 80px;
+  margin: 0 auto;
+  left: 50%;
+  overflow: hidden;
   -moz-transform: translate(-50%, 100%) scale(0.98);
   -webkit-transform: translate(-50%, 100%) scale(0.98);
   transform: translate(-50%, 100%) scale(0.98);
@@ -615,6 +621,18 @@ input {
   -webkit-transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
   -o-transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
   transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
+}
+
+.dock .dock_icon {
+  display: inline-block;
+  min-height: 80%;
+  height: auto;
+  width: 10%;
+  min-width: 64px;
+  margin: 1vw 1vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #download.show .dock {
