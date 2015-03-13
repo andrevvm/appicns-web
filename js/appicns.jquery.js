@@ -28,7 +28,7 @@ function show_list_view() {
    selectedEl.data("scrollPos",$(window).scrollTop());
    selectedEl = $("#single_content");
    setBodyHeight();
-   var icon_index = Math.round(($(this).scrollTop()) / ($(window).height() - 75));
+   var icon_index = Math.round(($(this).scrollTop()) / ($('.full_icon').first().height() + 200));
    unbind_icon_text();
    scrollto_label(icon_index);
    set_page_margin(selectedEl);
@@ -137,7 +137,7 @@ function loadIcons() {
        $(window).scroll(function() {
          selectedEl.css("top",-$(this).scrollTop());
          if(selectedEl.attr("id") == "single_content") {
-            var icon_index = Math.round(($(this).scrollTop()) / ($(window).height() - 75));
+            var icon_index = Math.round(($(this).scrollTop()) / ($('.full_icon').first().height() + 200));
             scrollto_label(icon_index);
          }
          if(selectedEl.attr("id") == "download") {
@@ -150,7 +150,7 @@ function loadIcons() {
             var icon_index = 0;
             $("#faux-page").height(selectedEl.outerHeight());
             if(selectedEl.attr("id") == "single_content") {
-              icon_index = Math.round(($(this).scrollTop()) / ($(window).height() - 75));
+              icon_index = Math.round(($(this).scrollTop()) / ($('.full_icon').first().height() + 200));
             }
             if(selectedEl.attr("id") == "download") {
               icon_index = $("#full_download").index();
