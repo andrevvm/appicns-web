@@ -749,11 +749,11 @@ body.Loading #pages {
 body .icon_holder {
   opacity: 1;
 
-  -webkit-transition: -webkit-transform 200ms, opacity 200ms;
-  -moz-transition: -moz-transform 200ms, opacity 200ms;
-  -ms-transition: -ms-transform 200ms, opacity 200ms;
-  -o-transition: -o-transform 200ms, opacity 200ms;
-  transition: transform 200ms, opacity 200ms;
+  -webkit-transition: -webkit-transform 400ms, opacity 400ms;
+  -moz-transition: -moz-transform 400ms, opacity 400ms;
+  -ms-transition: -ms-transform 400ms, opacity 400ms;
+  -o-transition: -o-transform 400ms, opacity 400ms;
+  transition: transform 400ms, opacity 400ms;
 
   -webkit-transform: translate(0,0);
   -moz-transform: translate(0,0);
@@ -773,62 +773,62 @@ body.Loading .icon_holder {
 }
 
 body .icon_holder:nth-child(2) {
-  -webkit-transition-delay: 100ms;
+  -webkit-transition-delay: 50ms;
 }
 
 body .icon_holder:nth-child(3) {
-  -webkit-transition-delay: 200ms;
+  -webkit-transition-delay: 100ms;
 }
 body .icon_holder:nth-child(4) {
-  -webkit-transition-delay: 300ms;
+  -webkit-transition-delay: 150ms;
 }
 body .icon_holder:nth-child(5) {
-  -webkit-transition-delay: 400ms;
+  -webkit-transition-delay: 200ms;
 }
 body .icon_holder:nth-child(6) {
-  -webkit-transition-delay: 500ms;
+  -webkit-transition-delay: 250ms;
 }
 body .icon_holder:nth-child(7) {
-  -webkit-transition-delay: 600ms;
+  -webkit-transition-delay: 300ms;
 }
 body .icon_holder:nth-child(8) {
-  -webkit-transition-delay: 700ms;
+  -webkit-transition-delay: 350ms;
 }
 body .icon_holder:nth-child(9) {
-  -webkit-transition-delay: 800ms;
+  -webkit-transition-delay: 400ms;
 }
 body .icon_holder:nth-child(10) {
-  -webkit-transition-delay: 900ms;
+  -webkit-transition-delay: 450ms;
 }
 body .icon_holder:nth-child(11) {
-  -webkit-transition-delay: 1000ms;
+  -webkit-transition-delay: 500ms;
 }
 body .icon_holder:nth-child(12) {
-  -webkit-transition-delay: 1100ms;
+  -webkit-transition-delay: 550ms;
 }
 body .icon_holder:nth-child(13) {
-  -webkit-transition-delay: 1200ms;
+  -webkit-transition-delay: 600ms;
 }
 body .icon_holder:nth-child(14) {
-  -webkit-transition-delay: 1300ms;
+  -webkit-transition-delay: 650ms;
 }
 body .icon_holder:nth-child(15) {
-  -webkit-transition-delay: 1400ms;
+  -webkit-transition-delay: 700ms;
 }
 body .icon_holder:nth-child(16) {
-  -webkit-transition-delay: 1500ms;
+  -webkit-transition-delay: 750ms;
 }
 body .icon_holder:nth-child(17) {
-  -webkit-transition-delay: 1600ms;
+  -webkit-transition-delay: 800ms;
 }
 body .icon_holder:nth-child(18) {
-  -webkit-transition-delay: 1700ms;
+  -webkit-transition-delay: 850ms;
 }
 body .icon_holder:nth-child(19) {
-  -webkit-transition-delay: 1800ms;
+  -webkit-transition-delay: 900ms;
 }
 body .icon_holder:nth-child(20) {
-  -webkit-transition-delay: 1900ms;
+  -webkit-transition-delay: 950ms;
 }
 
 
