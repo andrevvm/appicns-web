@@ -315,6 +315,13 @@ div#pages {
   -o-transition: left .5s;
 }
 
+div#pages.no-anim {
+  transition: left 0s;
+  -moz-transition: left 0s;
+  -webkit-transition: left 0s;
+  -o-transition: left 0s;
+}
+
 .download-section {
   position: relative;
   width: 100vw;
@@ -723,11 +730,11 @@ body.Loading #pages {
 body .icon_holder {
   opacity: 1;
 
-  -webkit-transition: all 200ms;
-  -moz-transition: all 200ms;
-  -ms-transition: all 200ms;
-  -o-transition: all 200ms;
-  transition: all 200ms;
+  -webkit-transition: -webkit-transform 200ms, opacity 200ms;
+  -moz-transition: -moz-transform 200ms, opacity 200ms;
+  -ms-transition: -ms-transform 200ms, opacity 200ms;
+  -o-transition: -o-transform 200ms, opacity 200ms;
+  transition: transform 200ms, opacity 200ms;
 
   -webkit-transform: translate(0,0);
   -moz-transform: translate(0,0);

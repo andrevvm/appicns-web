@@ -146,6 +146,7 @@ function loadIcons() {
         });
          
         $(window).resize(function() {
+          $("#pages").addClass('no-anim');
           timer = setTimeout(function() {
             var icon_index = 0;
             $("#faux-page").height(selectedEl.outerHeight());
@@ -158,6 +159,8 @@ function loadIcons() {
             if(selectedEl.attr("id") != "icons_content") {
               scrollto_label(icon_index);
             }
+
+            $("#pages").removeClass('no-anim');
             
           }, 500);
           set_page_margin(selectedEl);
