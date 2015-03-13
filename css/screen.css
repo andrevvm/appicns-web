@@ -336,7 +336,9 @@ div#pages.no-anim {
 
 .download-holder {
   display: block;
-  margin: 20vh auto auto;
+  margin: auto;
+  position: relative;
+  top: -3vh;
 }
 
 .download-holder p {
