@@ -121,7 +121,7 @@ function loadIcons() {
     var list = [];
     $.each( data, function( ) {
       $.each( data.icons, function( id, icon ) {
-        grid.push( '<div class="grid_3 resize_960_3 resize_640_2 resize_320_2"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" id="'+icon.id+'" class="icon"></span></div>' );
+        grid.push( '<div class="grid_3 resize_960_3 resize_640_2 resize_320_2 icon_holder"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" id="'+icon.id+'" class="icon"></span></div>' );
       });
       $.each( data.icons, function( id, icon ) {
         list.push( '<div id="full_'+icon.id+'" class="full_icon"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" class="icns"></span><br/></div>' );
@@ -201,7 +201,21 @@ function loadIcons() {
         });
        return false;
     });
+   page_load();
    icon_text();
    icon_labels();
+  });
+}
+
+function page_load() {
+  var images = $('img');
+  $('.icon').each(function(){
+    var el = $(this)
+      , image = el.css('background-image').match(/url\((['"])?(.*?)\1\)/);
+    if(image)
+      images = images.add($('<img>').attr('src', image.pop()));
+  });
+  images.imagesLoaded(function(){
+    $('body').removeClass('Loading');
   });
 }

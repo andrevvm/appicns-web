@@ -667,6 +667,114 @@ body.embed #mask {
   background: rgba(0,0,0,0.8);
 }
 
+.Loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  opacity: 0;
+  width: 32px;
+  height: 32px;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+
+  -webkit-transform: translate(0,-10px);
+  -moz-transform: translate(0,-10px);
+  -ms-transform: translate(0,-10px);
+  -o-transform: translate(0,-10px);
+  transform: translate(0,-10px);
+}
+
+.Loader img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+
+body.Loading .Loader {
+  opacity: 1;
+
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+#pages {
+  opacity: 1;
+  -webkit-transition: opacity 200ms;
+  -moz-transition: opacity 200ms;
+  -ms-transition: opacity 200ms;
+  -o-transition: opacity 200ms;
+  transition: opacity 200ms;
+}
+
+body.Loading #pages {
+  opacity: 0;
+}
+
+body .icon_holder {
+  opacity: 1;
+
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+body.Loading .icon_holder {
+  opacity: 0;
+
+  -webkit-transform: translate(0,10px);
+  -moz-transform: translate(0,10px);
+  -ms-transform: translate(0,10px);
+  -o-transform: translate(0,10px);
+  transform: translate(0,10px);
+}
+
+body .icon_holder:nth-child(2) {
+  -webkit-transition-delay: 100ms;
+}
+
+body .icon_holder:nth-child(3) {
+  -webkit-transition-delay: 200ms;
+}
+body .icon_holder:nth-child(4) {
+  -webkit-transition-delay: 300ms;
+}
+body .icon_holder:nth-child(5) {
+  -webkit-transition-delay: 400ms;
+}
+body .icon_holder:nth-child(6) {
+  -webkit-transition-delay: 500ms;
+}
+body .icon_holder:nth-child(7) {
+  -webkit-transition-delay: 600ms;
+}
+body .icon_holder:nth-child(8) {
+  -webkit-transition-delay: 700ms;
+}
+body .icon_holder:nth-child(9) {
+  -webkit-transition-delay: 800ms;
+}
+body .icon_holder:nth-child(10) {
+  -webkit-transition-delay: 900ms;
+}
+
 
 
 /* Resize styles

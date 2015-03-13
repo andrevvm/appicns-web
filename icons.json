@@ -23,6 +23,22 @@
     {
       "id": "quicktime",
       "title": "Quicktime"
+    },
+    {
+      "id": "folder",
+      "title": "Folder"
+    },
+    {
+      "id": "mail",
+      "title": "Mail"
+    },
+    {
+      "id": "vlc",
+      "title": "VLC"
+    },
+    {
+      "id": "skype",
+      "title": "Skype"
     }
   ]
 }
