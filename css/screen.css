@@ -351,8 +351,13 @@ div#pages {
   padding-right: 2px;
 }
 
-.download-holder p.light {
+.download-holder p.light,
+.download-holder p.light a {
   color: #ADADAD;
+}
+
+.download-holder p.light a:hover {
+  color: #202020;
 }
 
 .download-holder h1 {
@@ -360,37 +365,7 @@ div#pages {
   color: #202020;
   font-size: 20px;
   font-weight: 400;
-  opacity: 0;
   margin-bottom: 30px;
-  -webkit-transition: all 800ms 0ms;
-  -moz-transition: all 800ms 0ms;
-  -ms-transition: all 800ms 0ms;
-  transition: all 800ms 800ms;
-  -webkit-transform: translate(0, 20px);
-  -moz-transform: translate(0, 20px);
-  -o-transform: translate(0, 20px);
-  transform: translate(0, 20px);
-}
-
-.download-holder #mc_embed_signup {
-  opacity: 0;
-  -webkit-transition: all 800ms 600ms;
-  -moz-transition: all 800ms 600ms;
-  -ms-transition: all 800ms 600ms;
-  transition: all 800ms 1100ms;
-  -webkit-transform: translate(0, 20px);
-  -moz-transform: translate(0, 20px);
-  -o-transform: translate(0, 20px);
-  transform: translate(0, 20px);
-}
-
-.download-holder.show #mc_embed_signup,
-.download-holder.show h1 {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
-  opacity: 1;
 }
 
 .download-button {
@@ -627,13 +602,13 @@ input {
   -moz-transform: translate(-50%, 100%) scale(0.98);
   -webkit-transform: translate(-50%, 100%) scale(0.98);
   transform: translate(-50%, 100%) scale(0.98);
-  -moz-transition: all 500ms 1400ms cubic-bezier(0,.86,.71,.99);
-  -webkit-transition: all 500ms 1400ms cubic-bezier(0,.86,.71,.99);
-  -o-transition: all 500ms 1400ms cubic-bezier(0,.86,.71,.99);
-  transition: all 500ms 1400ms cubic-bezier(0,.86,.71,.99);
+  -moz-transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
+  -webkit-transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
+  -o-transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
+  transition: all 400ms 600ms cubic-bezier(0,.86,.71,.99);
 }
 
-.dock.show {
+#download.show .dock {
   -moz-transform: translate(-50%, 0) scale(1);
   -webkit-transform: translate(-50%, 0) scale(1);
   transform: translate(-50%, 0) scale(1);

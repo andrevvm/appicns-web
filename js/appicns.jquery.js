@@ -18,6 +18,9 @@ function show_grid_view() {
    $("#icon_labels").stop(true).fadeTo(400,0,"linear");
    $("#nav .selected").removeClass("selected");
    $("#nav_grid").addClass("selected");
+
+   $("#download").removeClass('show');
+
    return false;
 }
 
@@ -25,18 +28,20 @@ function show_list_view() {
    selectedEl.data("scrollPos",$(window).scrollTop());
    selectedEl = $("#single_content");
    setBodyHeight();
-   var icon_index = Math.round($(window).scrollTop() / 720);
+   var icon_index = Math.round(($(this).scrollTop()) / ($(window).height() - 75));
+   unbind_icon_text();
    scrollto_label(icon_index);
    set_page_margin(selectedEl);
-    $("#header h3").stop(true).fadeTo(100,1,"linear",function() {
-      $("#header h3").hide();
-      $("#icon_labels").css("opacity",1).show();
-    });
+    $("#header h3").hide();
+    $("#icon_labels").css("opacity",1).show();
     $(".icons img, #grid_download").unbind("mouseleave");
     $(".icons img, #grid_download").unbind("mouseenter");
     
     $("#nav .selected").removeClass("selected");
     $("#nav_list").addClass("selected");
+
+    $("#download").removeClass('show');
+
     return false;
 }
 
@@ -44,6 +49,7 @@ function show_download_view() {
    selectedEl.data("scrollPos",$(window).scrollTop());
    selectedEl = $("#download");
    setBodyHeight();
+   unbind_icon_text();
    set_page_margin(selectedEl);
     $("#header h3").stop(true).fadeTo(100,1,"linear",function() {
       $("#header h3").hide();
@@ -51,6 +57,8 @@ function show_download_view() {
     });
     $(".icons img, #grid_download").unbind("mouseleave");
     $(".icons img, #grid_download").unbind("mouseenter");
+
+    $("#download").addClass('show');
     
     $("#nav .selected").removeClass("selected");
     $("#nav_download").addClass("selected");
@@ -69,6 +77,10 @@ function icon_text() {
   }).mouseleave(function(){
     $("#header h3").stop().fadeTo(400,0,"linear",function(){$(this).text("");});
   });
+}
+
+function unbind_icon_text() {
+  $(".icons .icon, #grid_download").unbind("mouseenter").unbind("mouseleave");
 }
 
 function icon_labels() {
@@ -120,12 +132,6 @@ function loadIcons() {
   })
   .done(function(){
 
-      $(".download-holder").addClass('show');
-        setTimeout(function() {
-          $(".dock").addClass('show');
-        }, 10);
-
-
        selectedEl = $("#icons_content");
        setBodyHeight();
        $(window).scroll(function() {
@@ -144,7 +150,7 @@ function loadIcons() {
             var icon_index = 0;
             $("#faux-page").height(selectedEl.outerHeight());
             if(selectedEl.attr("id") == "single_content") {
-              icon_index = Math.round($(window).scrollTop() / 720);
+              icon_index = Math.round(($(this).scrollTop()) / ($(window).height() - 75));
             }
             if(selectedEl.attr("id") == "download") {
               icon_index = $("#full_download").index();
