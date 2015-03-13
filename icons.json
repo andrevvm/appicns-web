@@ -39,6 +39,46 @@
     {
       "id": "skype",
       "title": "Skype"
+    },
+    {
+      "id": "finder",
+      "title": "Finder"
+    },
+    {
+      "id": "safari",
+      "title": "Safari"
+    },
+    {
+      "id": "firefox",
+      "title": "Firefox"
+    },
+    {
+      "id": "chrome",
+      "title": "Chrome"
+    },
+    {
+      "id": "stickies",
+      "title": "Stickies"
+    },
+    {
+      "id": "quicktime",
+      "title": "Quicktime"
+    },
+    {
+      "id": "folder",
+      "title": "Folder"
+    },
+    {
+      "id": "Mail",
+      "title": "Mail"
+    },
+    {
+      "id": "vlc",
+      "title": "VLC"
+    },
+    {
+      "id": "skype",
+      "title": "Skype"
     }
   ]
 }

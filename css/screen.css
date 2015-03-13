@@ -774,6 +774,36 @@ body .icon_holder:nth-child(9) {
 body .icon_holder:nth-child(10) {
   -webkit-transition-delay: 900ms;
 }
+body .icon_holder:nth-child(11) {
+  -webkit-transition-delay: 1000ms;
+}
+body .icon_holder:nth-child(12) {
+  -webkit-transition-delay: 1100ms;
+}
+body .icon_holder:nth-child(13) {
+  -webkit-transition-delay: 1200ms;
+}
+body .icon_holder:nth-child(14) {
+  -webkit-transition-delay: 1300ms;
+}
+body .icon_holder:nth-child(15) {
+  -webkit-transition-delay: 1400ms;
+}
+body .icon_holder:nth-child(16) {
+  -webkit-transition-delay: 1500ms;
+}
+body .icon_holder:nth-child(17) {
+  -webkit-transition-delay: 1600ms;
+}
+body .icon_holder:nth-child(18) {
+  -webkit-transition-delay: 1700ms;
+}
+body .icon_holder:nth-child(19) {
+  -webkit-transition-delay: 1800ms;
+}
+body .icon_holder:nth-child(20) {
+  -webkit-transition-delay: 1900ms;
+}
 
 
 
