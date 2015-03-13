@@ -627,7 +627,7 @@ input {
   display: inline-block;
   width: 12%;
   height: 80%;
-  min-width: 56px;
+  min-width: 48px;
   margin: 1.5% 10px;
   background-size: contain;
   background-position: center;
