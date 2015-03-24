@@ -1,31 +1,73 @@
 {"icons":
   [
     {
-      "id": "finder",
+      "id": "Finder",
       "title": "Finder"
     },
     {
-      "id": "safari",
+      "id": "Dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "id": "Safari",
       "title": "Safari"
     },
     {
-      "id": "firefox",
+      "id": "Firefox",
       "title": "Firefox"
     },
     {
-      "id": "chrome",
+      "id": "Chrome",
       "title": "Chrome"
     },
     {
-      "id": "stickies",
+      "id": "TimeMachine",
+      "title": "Time Machine"
+    },
+    {
+      "id": "Stickies",
       "title": "Stickies"
     },
     {
-      "id": "quicktime",
+      "id": "TextEdit",
+      "title": "TextEdit"
+    },
+    {
+      "id": "Dictionary",
+      "title": "Dictionary"
+    },
+    {
+      "id": "iMovie",
+      "title": "iMovie"
+    },
+    {
+      "id": "iTunes",
+      "title": "iTunes"
+    },
+    {
+      "id": "iPhoto",
+      "title": "iPhoto"
+    },
+    {
+      "id": "Autormator",
+      "title": "Automator"
+    },
+    {
+      "id": "Contacts",
+      "title": "Contacts"
+    },
+
+    {
+      "id": "Sketch",
+      "title": "Sketch"
+    },
+
+    {
+      "id": "Quicktime",
       "title": "Quicktime"
     },
     {
-      "id": "folder",
+      "id": "Folder",
       "title": "Folder"
     },
     {
@@ -33,52 +75,32 @@
       "title": "Mail"
     },
     {
-      "id": "vlc",
+      "id": "VLC",
       "title": "VLC"
     },
     {
-      "id": "skype",
+      "id": "Skype",
       "title": "Skype"
     },
     {
-      "id": "finder",
-      "title": "Finder"
+      "id": "AbletonLive",
+      "title": "Ableton Live"
     },
     {
-      "id": "safari",
-      "title": "Safari"
+      "id": "1Password",
+      "title": "1Password"
     },
     {
-      "id": "firefox",
-      "title": "Firefox"
+      "id": "Activity-Monitor",
+      "title": "Activity Monitor"
     },
     {
-      "id": "chrome",
-      "title": "Chrome"
+      "id": "ColorSyncUtility",
+      "title": "Color Sync Utility"
     },
     {
-      "id": "stickies",
-      "title": "Stickies"
-    },
-    {
-      "id": "quicktime",
-      "title": "Quicktime"
-    },
-    {
-      "id": "folder",
-      "title": "Folder"
-    },
-    {
-      "id": "Mail",
-      "title": "Mail"
-    },
-    {
-      "id": "vlc",
-      "title": "VLC"
-    },
-    {
-      "id": "skype",
-      "title": "Skype"
+      "id": "Aperature",
+      "title": "Aperature"
     }
   ]
 }
