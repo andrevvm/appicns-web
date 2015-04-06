@@ -1,11 +1,11 @@
 {"icons":
   [
     {
-      "id": "Finder",
+      "id": "DockFinder",
       "title": "Finder"
     },
     {
-      "id": "Dashboard",
+      "id": "DockDashboard",
       "title": "Dashboard"
     },
     {
@@ -17,20 +17,36 @@
       "title": "Firefox"
     },
     {
-      "id": "Chrome",
-      "title": "Chrome"
+      "id": "GoogleChrome",
+      "title": "Google Chrome"
+    },
+    {
+      "id": "AppStore",
+      "title": "App Store"
+    },
+    {
+      "id": "Maps",
+      "title": "Maps"
+    },
+    {
+      "id": "Preview",
+      "title": "Preview"
     },
     {
       "id": "TimeMachine",
       "title": "Time Machine"
     },
     {
-      "id": "Stickies",
-      "title": "Stickies"
+      "id": "FaceTime",
+      "title": "FaceTime"
     },
     {
       "id": "TextEdit",
       "title": "TextEdit"
+    },
+    {
+      "id": "Contacts",
+      "title": "Contacts"
     },
     {
       "id": "Dictionary",
@@ -41,20 +57,38 @@
       "title": "iMovie"
     },
     {
-      "id": "iTunes",
-      "title": "iTunes"
-    },
-    {
       "id": "iPhoto",
       "title": "iPhoto"
     },
     {
-      "id": "Autormator",
+      "id": "Keynote",
+      "title": "Keynote"
+    },
+    {
+      "id": "Numbers",
+      "title": "Numbers"
+    },
+    {
+      "id": "Pages",
+      "title": "Pages"
+    },
+    {
+      "id": "Automator",
       "title": "Automator"
     },
     {
-      "id": "Contacts",
-      "title": "Contacts"
+      "id": "Console",
+      "title": "Console"
+    },
+
+    {
+      "id": "iAWriter",
+      "title": "Writer"
+    },
+
+    {
+      "id": "FinalCutPro",
+      "title": "Final Cut Pro"
     },
 
     {
@@ -63,24 +97,32 @@
     },
 
     {
-      "id": "Quicktime",
-      "title": "Quicktime"
+      "id": "Photobooth",
+      "title": "Photobooth"
     },
     {
       "id": "Folder",
       "title": "Folder"
     },
     {
+      "id": "Calculator",
+      "title": "Calculator"
+    },
+    {
       "id": "Mail",
       "title": "Mail"
     },
     {
-      "id": "VLC",
-      "title": "VLC"
+      "id": "Twitter",
+      "title": "Twitter"
     },
     {
-      "id": "Skype",
-      "title": "Skype"
+      "id": "MailboxApp",
+      "title": "Mailbox"
+    },
+    {
+      "id": "SublimeText",
+      "title": "Sublime Text"
     },
     {
       "id": "AbletonLive",
@@ -91,7 +133,7 @@
       "title": "1Password"
     },
     {
-      "id": "Activity-Monitor",
+      "id": "ActivityMonitor",
       "title": "Activity Monitor"
     },
     {
