@@ -73,7 +73,7 @@ function set_page_margin(el) {
 
 function icon_text() {
   $(".icons .icon, #grid_download").mouseenter(function(){
-    $("#header h3").stop().text($(this).attr("title")+".").fadeTo(100,0.5,"linear");
+    $("#header h3").stop().text($(this).attr("data-title")+".").fadeTo(100,0.5,"linear");
   }).mouseleave(function(){
     $("#header h3").stop().fadeTo(400,0,"linear",function(){$(this).text("");});
   });
@@ -85,7 +85,7 @@ function unbind_icon_text() {
 
 function icon_labels() {
   $(".icons .icon").each(function() {
-    $("#icon_labels ul").append("<li id='label_"+$(this).attr("id")+"'>"+$(this).attr("title")+".</li>");
+    $("#icon_labels ul").append("<li id='label_"+$(this).attr("id")+"'>"+$(this).attr("data-title")+".</li>");
   });
   $("#icon_labels ul").append("<li id='label_grid_download'>Download.</li>");
 }
@@ -123,10 +123,10 @@ function loadIcons() {
     var count = 0;
     $.each( data, function( ) {
       $.each( data.icons, function( id, icon ) {
-        grid.push( '<div class="grid_3 resize_960_3 resize_640_2 resize_320_2 icon_holder"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" id="'+icon.id+'" class="icon"></span></div>' );
+        grid.push( '<div class="grid_3 resize_960_3 resize_640_2 resize_320_2 icon_holder"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" data-title="'+ icon.title +'" id="'+icon.id+'" class="icon"></span></div>' );
       });
       $.each( data.icons, function( id, icon ) {
-        list.push( '<div id="full_'+icon.id+'" class="full_icon"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" title="'+ icon.title +'" class="icns"></span><br/></div>' );
+        list.push( '<div id="full_'+icon.id+'" class="full_icon"><span style="background-image:url(icons/appicns_'+icon.id+'.png)" data-title="'+ icon.title +'" class="icns"></span><br/></div>' );
       });
       count++;
       if(count < 11) {
@@ -135,7 +135,7 @@ function loadIcons() {
         });
       }
     });
-    $("#grid_download").before(grid);
+    $(".icons").append(grid);
     $("#full_download").before(list);
     $(".dock").append(dock);
   })
@@ -144,7 +144,7 @@ function loadIcons() {
        selectedEl = $("#icons_content");
        setBodyHeight();
        $(window).scroll(function() {
-         selectedEl.css("top",-$(this).scrollTop());
+         selectedEl.css("transform","translate3d(0,"+ -$(this).scrollTop() +"px, 0)");
          if(selectedEl.attr("id") == "single_content") {
             var icon_index = Math.round(($(this).scrollTop()) / ($('.full_icon').first().height() + 200));
             scrollto_label(icon_index);

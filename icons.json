@@ -9,140 +9,78 @@
       "title": "Dashboard"
     },
     {
-      "id": "Safari",
-      "title": "Safari"
+      "id": "Mail",
+      "title": "Mail"
     },
     {
-      "id": "Firefox",
-      "title": "Firefox"
-    },
-    {
-      "id": "GoogleChrome",
-      "title": "Google Chrome"
-    },
-    {
-      "id": "AppStore",
-      "title": "App Store"
-    },
-    {
-      "id": "Maps",
-      "title": "Maps"
+      "id": "iTunes",
+      "title": "iTunes"
     },
     {
       "id": "Preview",
       "title": "Preview"
     },
     {
-      "id": "TimeMachine",
-      "title": "Time Machine"
-    },
-    {
-      "id": "FaceTime",
-      "title": "FaceTime"
-    },
-    {
-      "id": "TextEdit",
-      "title": "TextEdit"
-    },
-    {
-      "id": "Contacts",
-      "title": "Contacts"
-    },
-    {
-      "id": "Dictionary",
-      "title": "Dictionary"
-    },
-    {
-      "id": "iMovie",
-      "title": "iMovie"
-    },
-    {
-      "id": "iPhoto",
-      "title": "iPhoto"
-    },
-    {
-      "id": "Keynote",
-      "title": "Keynote"
-    },
-    {
-      "id": "Numbers",
-      "title": "Numbers"
-    },
-    {
-      "id": "Pages",
-      "title": "Pages"
-    },
-    {
-      "id": "Automator",
-      "title": "Automator"
-    },
-    {
-      "id": "Console",
-      "title": "Console"
-    },
-
-    {
-      "id": "iAWriter",
-      "title": "Writer"
-    },
-
-    {
-      "id": "FinalCutPro",
-      "title": "Final Cut Pro"
-    },
-
-    {
-      "id": "Sketch",
-      "title": "Sketch"
+      "id": "Maps",
+      "title": "Maps"
     },
 
     {
       "id": "Photobooth",
       "title": "Photobooth"
     },
+    
     {
-      "id": "Folder",
-      "title": "Folder"
+      "id": "Photos",
+      "title": "Photos"
     },
     {
-      "id": "Calculator",
-      "title": "Calculator"
+      "id": "Calendar",
+      "title": "Calendar"
     },
     {
-      "id": "Mail",
-      "title": "Mail"
+      "id": "Facetime",
+      "title": "Facetime"
     },
     {
-      "id": "Twitter",
-      "title": "Twitter"
+      "id": "Messages",
+      "title": "Messages"
     },
     {
-      "id": "MailboxApp",
-      "title": "Mailbox"
+      "id": "Safari",
+      "title": "Safari"
     },
     {
-      "id": "SublimeText",
-      "title": "Sublime Text"
+      "id": "GoogleChrome",
+      "title": "Google Chrome"
     },
     {
-      "id": "AbletonLive",
-      "title": "Ableton Live"
+      "id": "Firefox",
+      "title": "Firefox"
     },
     {
-      "id": "1Password",
-      "title": "1Password"
+      "id": "AppStore",
+      "title": "App Store"
     },
     {
-      "id": "ActivityMonitor",
-      "title": "Activity Monitor"
+      "id": "LaunchPad",
+      "title": "Launchpad"
     },
     {
-      "id": "ColorSyncUtility",
-      "title": "Color Sync Utility"
+      "id": "MissionControl",
+      "title": "Mission Control"
     },
     {
-      "id": "Aperature",
-      "title": "Aperature"
+      "id": "Keynote",
+      "title": "Keynote"
+    },
+    {
+      "id": "Pages",
+      "title": "Pages"
+    },
+    {
+      "id": "Numbers",
+      "title": "Numbers"
     }
   ]
 }
