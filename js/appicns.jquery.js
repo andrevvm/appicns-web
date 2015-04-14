@@ -135,7 +135,7 @@ function loadIcons() {
         });
       }
     });
-    $(".icons").append(grid);
+    $("#grid_download").before(grid);
     $("#full_download").before(list);
     $(".dock").append(dock);
   })

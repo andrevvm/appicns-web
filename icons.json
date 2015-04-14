@@ -17,8 +17,8 @@
       "title": "iTunes"
     },
     {
-      "id": "Preview",
-      "title": "Preview"
+      "id": "Calendar",
+      "title": "Calendar"
     },
     {
       "id": "Maps",
@@ -35,13 +35,14 @@
       "title": "Photos"
     },
     {
-      "id": "Calendar",
-      "title": "Calendar"
+      "id": "Notes",
+      "title": "Notes"
     },
     {
-      "id": "Facetime",
-      "title": "Facetime"
+      "id": "Preview",
+      "title": "Preview"
     },
+
     {
       "id": "Messages",
       "title": "Messages"
@@ -71,16 +72,186 @@
       "title": "Mission Control"
     },
     {
-      "id": "Keynote",
-      "title": "Keynote"
-    },
-    {
       "id": "Pages",
       "title": "Pages"
     },
     {
       "id": "Numbers",
       "title": "Numbers"
+    },
+    {
+      "id": "Keynote",
+      "title": "Keynote"
+    },
+    {
+      "id": "iBooks",
+      "title": "iBooks"
+    },
+    {
+      "id": "SystemPreferences",
+      "title": "System Preferences"
+    },
+    {
+      "id": "Reminders",
+      "title": "Reminders"
+    },
+    {
+      "id": "Calculator",
+      "title": "Calculator"
+    },
+    {
+      "id": "Facetime",
+      "title": "Facetime"
+    },
+    {
+      "id": "Contacts",
+      "title": "Contacts"
+    },
+    {
+      "id": "iPhoto",
+      "title": "iPhoto"
+    },
+    {
+      "id": "Stickies",
+      "title": "Stickies"
+    },
+    {
+      "id": "Dictionary",
+      "title": "Dictionary"
+    },
+    {
+      "id": "Skype",
+      "title": "Skype"
+    },
+    {
+      "id": "AdobeAcrobatReader",
+      "title": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "AdobeIllustrator",
+      "title": "Adobe Illustrator"
+    },
+    {
+      "id": "AdobePhotoshop",
+      "title": "Adobe Photoshop"
+    },
+    {
+      "id": "AdobeInDesign",
+      "title": "Adobe InDesign"
+    },
+    {
+      "id": "AdobeAfterEffects",
+      "title": "Adobe After Effects"
+    },
+    {
+      "id": "Sketch",
+      "title": "Sketch"
+    },
+    {
+      "id": "Spotify",
+      "title": "Spotify"
+    },
+    {
+      "id": "Twitter",
+      "title": "Twitter"
+    },
+    {
+      "id": "Rdio",
+      "title": "Rdio"
+    },
+    {
+      "id": "FinalCutPro",
+      "title": "FinalCutPro"
+    },
+
+    {
+      "id": "GoogleDrive",
+      "title": "Google Drive"
+    },
+
+    {
+      "id": "iAWriter",
+      "title": "iA Writer"
+    },
+
+    {
+      "id": "Slack",
+      "title": "Slack"
+    },
+
+    {
+      "id": "1Password",
+      "title": "1Password"
+    },
+
+    {
+      "id": "MailboxApp",
+      "title": "Mailbox"
+    },
+
+    {
+      "id": "Terminal",
+      "title": "Terminal"
+    },
+
+    {
+      "id": "Console",
+      "title": "Console"
+    },
+
+    
+    {
+      "id": "Automator",
+      "title": "Automator"
+    },
+    {
+      "id": "ActivityMonitor",
+      "title": "ActivityMonitor"
+    },
+
+    {
+      "id": "IconComposer",
+      "title": "Icon Composer"
+    },
+    {
+      "id": "DeviceInternal",
+      "title": "Internal Device"
+    },
+    {
+      "id": "DeviceExternal",
+      "title": "External Device"
+    },
+    {
+      "id": "DeviceRemovable",
+      "title": "Removable Device"
+    },
+    {
+      "id": "DeviceTimeMachine",
+      "title": "Time Machine Device"
+    },
+    {
+      "id": "DeviceCD",
+      "title": "CD"
+    },
+    {
+      "id": "FolderGeneric",
+      "title": "Folder"
+    },
+    {
+      "id": "FolderDownloads",
+      "title": "Downloads Folder"
+    },
+    {
+      "id": "FolderGroup",
+      "title": "Group Folder"
+    },
+    {
+      "id": "FolderSmart",
+      "title": "Smart Folder"
+    },
+    {
+      "id": "DockFullTrash",
+      "title": "Trash"
     }
   ]
 }
