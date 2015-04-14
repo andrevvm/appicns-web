@@ -226,7 +226,7 @@ function page_load() {
     count++;
     var el = $(this)
       , image = el.css('background-image').match(/url\((['"])?(.*?)\1\)/);
-    if(image && count < 11) {
+    if(image && count < 21) {
       images = images.add($('<img>').attr('src', image.pop()));
     }
   });
