@@ -1,11 +1,11 @@
 {"icons":
   [
     {
-      "id": "DockFinder",
+      "id": "Finder",
       "title": "Finder"
     },
     {
-      "id": "DockDashboard",
+      "id": "Dashboard",
       "title": "Dashboard"
     },
     {
@@ -251,7 +251,7 @@
       "title": "Smart Folder"
     },
     {
-      "id": "DockFullTrash",
+      "id": "TrashFull",
       "title": "Trash"
     }
   ]
