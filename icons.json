@@ -1,0 +1,258 @@
+{"icons":
+  [
+    {
+      "id": "DockFinder",
+      "title": "Finder"
+    },
+    {
+      "id": "DockDashboard",
+      "title": "Dashboard"
+    },
+    {
+      "id": "Mail",
+      "title": "Mail"
+    },
+    {
+      "id": "iTunes",
+      "title": "iTunes"
+    },
+    {
+      "id": "Calendar",
+      "title": "Calendar"
+    },
+    {
+      "id": "Maps",
+      "title": "Maps"
+    },
+
+    {
+      "id": "Photobooth",
+      "title": "Photobooth"
+    },
+    
+    {
+      "id": "Photos",
+      "title": "Photos"
+    },
+    {
+      "id": "Notes",
+      "title": "Notes"
+    },
+    {
+      "id": "Preview",
+      "title": "Preview"
+    },
+
+    {
+      "id": "Messages",
+      "title": "Messages"
+    },
+    {
+      "id": "Safari",
+      "title": "Safari"
+    },
+    {
+      "id": "GoogleChrome",
+      "title": "Google Chrome"
+    },
+    {
+      "id": "Firefox",
+      "title": "Firefox"
+    },
+    {
+      "id": "AppStore",
+      "title": "App Store"
+    },
+    {
+      "id": "LaunchPad",
+      "title": "Launchpad"
+    },
+    {
+      "id": "MissionControl",
+      "title": "Mission Control"
+    },
+    {
+      "id": "Pages",
+      "title": "Pages"
+    },
+    {
+      "id": "Numbers",
+      "title": "Numbers"
+    },
+    {
+      "id": "Keynote",
+      "title": "Keynote"
+    },
+    {
+      "id": "iBooks",
+      "title": "iBooks"
+    },
+    {
+      "id": "SystemPreferences",
+      "title": "System Preferences"
+    },
+    {
+      "id": "Reminders",
+      "title": "Reminders"
+    },
+    {
+      "id": "Calculator",
+      "title": "Calculator"
+    },
+    {
+      "id": "Facetime",
+      "title": "Facetime"
+    },
+    {
+      "id": "Contacts",
+      "title": "Contacts"
+    },
+    {
+      "id": "iPhoto",
+      "title": "iPhoto"
+    },
+    {
+      "id": "Stickies",
+      "title": "Stickies"
+    },
+    {
+      "id": "Dictionary",
+      "title": "Dictionary"
+    },
+    {
+      "id": "Skype",
+      "title": "Skype"
+    },
+    {
+      "id": "AdobeAcrobatReader",
+      "title": "Adobe Acrobat Reader"
+    },
+    {
+      "id": "AdobeIllustrator",
+      "title": "Adobe Illustrator"
+    },
+    {
+      "id": "AdobePhotoshop",
+      "title": "Adobe Photoshop"
+    },
+    {
+      "id": "AdobeInDesign",
+      "title": "Adobe InDesign"
+    },
+    {
+      "id": "AdobeAfterEffects",
+      "title": "Adobe After Effects"
+    },
+    {
+      "id": "Twitter",
+      "title": "Twitter"
+    },
+    {
+      "id": "Sketch",
+      "title": "Sketch"
+    },
+    {
+      "id": "Spotify",
+      "title": "Spotify"
+    },
+    
+    {
+      "id": "Rdio",
+      "title": "Rdio"
+    },
+    {
+      "id": "FinalCutPro",
+      "title": "FinalCutPro"
+    },
+
+    {
+      "id": "GoogleDrive",
+      "title": "Google Drive"
+    },
+
+    {
+      "id": "iAWriter",
+      "title": "iA Writer"
+    },
+
+    {
+      "id": "Slack",
+      "title": "Slack"
+    },
+
+    {
+      "id": "1Password",
+      "title": "1Password"
+    },
+
+    {
+      "id": "MailboxApp",
+      "title": "Mailbox"
+    },
+
+    {
+      "id": "Terminal",
+      "title": "Terminal"
+    },
+
+    {
+      "id": "Console",
+      "title": "Console"
+    },
+
+    
+    {
+      "id": "Automator",
+      "title": "Automator"
+    },
+    {
+      "id": "ActivityMonitor",
+      "title": "ActivityMonitor"
+    },
+
+    {
+      "id": "IconComposer",
+      "title": "Icon Composer"
+    },
+    {
+      "id": "DeviceInternal",
+      "title": "Internal Device"
+    },
+    {
+      "id": "DeviceExternal",
+      "title": "External Device"
+    },
+    {
+      "id": "DeviceRemovable",
+      "title": "Removable Device"
+    },
+    {
+      "id": "DeviceTimeMachine",
+      "title": "Time Machine Device"
+    },
+    {
+      "id": "DeviceCD",
+      "title": "CD"
+    },
+    {
+      "id": "FolderGeneric",
+      "title": "Folder"
+    },
+    {
+      "id": "FolderDownloads",
+      "title": "Downloads Folder"
+    },
+    {
+      "id": "FolderGroup",
+      "title": "Group Folder"
+    },
+    {
+      "id": "FolderSmart",
+      "title": "Smart Folder"
+    },
+    {
+      "id": "DockFullTrash",
+      "title": "Trash"
+    }
+  ]
+}
