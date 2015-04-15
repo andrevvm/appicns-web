@@ -144,6 +144,10 @@
       "title": "Adobe After Effects"
     },
     {
+      "id": "Twitter",
+      "title": "Twitter"
+    },
+    {
       "id": "Sketch",
       "title": "Sketch"
     },
@@ -151,10 +155,7 @@
       "id": "Spotify",
       "title": "Spotify"
     },
-    {
-      "id": "Twitter",
-      "title": "Twitter"
-    },
+    
     {
       "id": "Rdio",
       "title": "Rdio"
