@@ -6,6 +6,7 @@ var selectedEl,
 $(function() {
 
   loadIcons();
+  Preview();
   
 });
 
@@ -232,5 +233,19 @@ function page_load() {
   });
   images.imagesLoaded(function(){
     $('body').removeClass('Loading');
+  });
+}
+
+function Preview() {
+  $("#Preview").click(function(){
+    $("body").addClass("Preview")
+  });
+
+  $("#Overlay").click(function(event) {
+    console.log(event.target);
+    if(event.target.id === "TextList") {
+      return true;
+    }
+    $("body").removeClass("Preview");
   });
 }
